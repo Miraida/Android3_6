@@ -1,6 +1,7 @@
 package com.geek.android3_6;
 
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -38,6 +39,12 @@ public class MathTest {
         assertEquals(2,math.divide(4,2));
         assertEquals(0,math.divide(12,0));
         System.out.println("divide test");
+    }
+    @Test
+    public void reverse(){
+        String[] result = new String[]{"World","Hello","Hmm,"};
+        assertEquals(result,math.reverse("Hmm, Hello World"));
+        System.out.println("revers test");
     }
     @After
     public void tearDown() {
