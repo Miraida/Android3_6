@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/first_edt"
+        style="@style/edt_style"
+        android:autofillHints=""
+        android:hint="@string/enter_the_first_number" />
+
+    <EditText
+        android:id="@+id/second_edt"
+        style="@style/edt_style"
+        android:autofillHints=""
+        android:layout_marginBottom="50dp"
+        android:hint="@string/enter_the_second_number" />
+
+    <TextView
+        android:layout_margin="24dp"
+        android:id="@+id/result"
+        style="@style/tv_style" />
+    <Button
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add" />
+
+    <Button
+        android:id="@+id/subtract"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subtract" />
+
+    <Button
+        android:id="@+id/multiply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/multiply" />
+
+    <Button
+        android:id="@+id/divide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/divide" />
+
+</LinearLayout>

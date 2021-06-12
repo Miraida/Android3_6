@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Android3_6</string>
+    <string name="enter_the_first_number">Enter the first number</string>
+    <string name="enter_the_second_number">Enter the second number</string>
+    <string name="add">add</string>
+    <string name="subtract">subtract</string>
+    <string name="multiply">multiply</string>
+    <string name="divide">divide</string>
+</resources>
