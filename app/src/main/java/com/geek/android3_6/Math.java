@@ -1,10 +1,5 @@
 package com.geek.android3_6;
 
-import android.os.Build;
-import android.util.Log;
-
-import androidx.annotation.RequiresApi;
-
 public class Math {
     public int add(int a, int b) {
         return a + b;
